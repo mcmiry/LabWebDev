@@ -33,6 +33,7 @@ class DeviseCreateUsers < ActiveRecord::Migration[5.0]
       t.string :name
       t.string :surname
       t.string :nick
+      t.string :profile_picture
       t.integer :role
 
       t.timestamps null: false
